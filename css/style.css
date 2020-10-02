@@ -9,14 +9,17 @@ html{
 
 [class*="col-"]{
   border: 1px solid black;
-  height: 100%;
+  
+
 }
 
 .container{
-  height: 80px;
   border: 1px solid blue;
-}
 
+}
+.top-head{
+  height: 80px;
+}
 .ver-pos{
   line-height:80px;
   vertical-align: middle
@@ -65,3 +68,24 @@ nav ul li:not( :last-child) a{
     border-right: 1px solid black;
      padding-right:10px;
   }
+
+.frame{
+  background-image: url(../img/header.jpg);
+  width:100vw;
+  height: 60vh;
+  background-size: cover;
+}
+
+.head-bottom{
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+
+}
+
+
+
+.head-bottom > img {
+   width:200px;
+   height:60px;
+}
