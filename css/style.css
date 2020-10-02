@@ -1,0 +1,62 @@
+
+
+html{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+
+
+[class*="col-"]{
+  border: 1px solid black;
+  height: 100%;
+}
+
+.container{
+  height: 80px;
+  border: 1px solid blue;
+}
+
+.ver-pos{
+  line-height:80px;
+  vertical-align: middle
+}
+
+.logo{
+  width:80%;
+
+
+}
+
+nav ul{
+  text-align: right;
+}
+
+nav ul li:not( :last-child) {
+  margin-right:15px;
+}
+
+.nav-left li {
+  display: inline-block;
+}
+
+.nav-left li a{
+  text-decoration: none;
+  color: #000;
+  line-height:80px;
+  vertical-align: middle;
+}
+
+
+
+.nav-right li{
+  display:inline-block;
+  position: relative;
+}
+
+.nav-right li a {
+  text-decoration:none;
+  color: #000;
+  line-height:80px;
+  vertical-align: middle
+}
