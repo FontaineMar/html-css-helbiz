@@ -31,9 +31,9 @@ html{
 nav ul{
   text-align: right;
 }
-
-nav ul li:not( :last-child) {
+nav ul li:not( :last-child) a{
   margin-right:15px;
+
 }
 
 .nav-left li {
@@ -60,3 +60,8 @@ nav ul li:not( :last-child) {
   line-height:80px;
   vertical-align: middle
 }
+
+ .nav-right li:not( :last-child) a{
+    border-right: 1px solid black;
+     padding-right:10px;
+  }
