@@ -8,27 +8,30 @@ html{
 
 
 [class*="col-"]{
-  border: 1px solid black;
-  
 
 }
-
+.inline{
+  display: inline-block;
+}
 .container{
-  border: 1px solid blue;
+  height: 80px;
 
 }
-.top-head{
+
+.top-head .container [class*="col-"]{
   height: 80px;
 }
+
 .ver-pos{
   line-height:80px;
   vertical-align: middle
 }
 
 .logo{
-  width:80%;
-
-
+  width:100px;
+}
+.f-right{
+float: right;
 }
 
 nav ul{
@@ -72,20 +75,27 @@ nav ul li:not( :last-child) a{
 .frame{
   background-image: url(../img/header.jpg);
   width:100vw;
-  height: 60vh;
+  height: 70vh;
   background-size: cover;
+  position: relative;
 }
 
-.head-bottom{
+.bottom-head{
   text-align: center;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
 
 }
 
+.pad{
+  padding:15px;
+}
 
-
-.head-bottom > img {
-   width:200px;
-   height:60px;
+.bottom-head  img {
+   width:150px;
+   height:50px;
 }
