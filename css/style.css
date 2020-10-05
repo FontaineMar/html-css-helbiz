@@ -14,8 +14,7 @@ html{
   display: inline-block;
 }
 .container{
-  height: 80px;
-
+  height:100%;
 }
 
 .top-head .container [class*="col-"]{
@@ -98,4 +97,51 @@ nav ul li:not( :last-child) a{
 .bottom-head  img {
    width:150px;
    height:50px;
+}
+.product{
+  width: 100%;
+  height:70vh;
+}
+.learn{
+  text-align: center;
+  margin-top:50px;
+  background-color: #fafafa;
+}
+
+.learn > .pad > a {
+  text-decoration: none;
+  font-weight:600;
+  color: #2082cf;
+}
+
+.learn > .pad > h2 {
+  font-size:2rem;
+}
+
+.learn > img{
+  width:230px;
+  height:250px;
+}
+
+
+.section-2{
+  background-image: url(../img/old-helbiz.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.iphone > img{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top:200px;
+}
+
+.text-iphone{
+  margin-top:400px;
+}
+
+.text-iphone > h2{
+margin-left:100px;
 }
